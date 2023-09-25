@@ -4,6 +4,9 @@
     "lib": ["esnext", "DOM", "DOM.Iterable"],
     "module": "esnext",
     "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "strict": true,
