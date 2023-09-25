@@ -1,3 +1,6 @@
+/**
+ * Tracking absolute position of elements while scrolling
+ */
 export interface Coordinates {
     top: number
     left: number
@@ -5,6 +8,9 @@ export interface Coordinates {
     height: number
 }
 
+/**
+ * Controll all the behaviours of animations
+ */
 export interface AnimationController<P = unknown> {
     /**
      * The original animation parent.
@@ -50,6 +56,9 @@ export interface AnimateOptions {
     disrespectUserMotionPreference?: boolean
 }
 
+/**
+ * for developing your own animation plugin with custom css
+ */
 export interface AnimationPlugin {
     <T extends 'add' | 'remove' | 'remain'>(
         el: Element,
