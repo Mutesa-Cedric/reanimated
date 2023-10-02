@@ -13,5 +13,8 @@
     "strictNullChecks": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "examples"
+  ]
 }
